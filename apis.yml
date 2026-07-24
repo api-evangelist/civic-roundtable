@@ -1,8 +1,25 @@
 aid: civic-roundtable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/civic-roundtable.png
 name: Civic Roundtable
-description: Civic Roundtable is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Civic Roundtable is a government operations platform that gives public sector organizations
+  one place for the people, partners, and knowledge behind every mission. It combines Workspaces for cross-agency
+  collaboration, a Knowledge Base for centralized search across systems, Communications for multi-channel
+  stakeholder outreach, a CRM for contact and engagement tracking, Insights for data-driven decision analytics,
+  and government-focused AI & Automation. The platform integrates with tools such as Microsoft Teams,
+  SharePoint, Google Workspace, Slack, Salesforce, and HubSpot, runs on AWS GovCloud, and serves more
+  than 4,000 organizations across all 50 U.S. states. It maintains SOC 2 Type II, FedRAMP High ATO, FIPS
+  140-2, and NIST 800-171 security posture. Civic Roundtable is backed by General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/civic-roundtable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Government
+- GovTech
+- Public Sector
+- Government Operations
+- Collaboration
+- Knowledge Management
+- CRM
+- Civic
 apis: []
+common:
+- type: TrustCenter
+  url: security/civic-roundtable-trust-center.yml
+- type: DomainSecurity
+  url: security/civic-roundtable-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/civic-roundtable-vulnerability-disclosure.yml
+- type: Website
+  url: https://www.civicroundtable.com
+- type: SignUp
+  url: https://app.civicroundtable.com/
+- type: Login
+  url: https://app.civicroundtable.com/
+- type: Blog
+  url: https://www.civicroundtable.com/blog
+- type: TermsOfService
+  url: https://www.civicroundtable.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.civicroundtable.com/legal/privacy
+- type: StatusPage
+  url: https://status.civicroundtable.com/
+- type: Security
+  url: https://www.civicroundtable.com/security
+- type: Compliance
+  url: https://trust.civicroundtable.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

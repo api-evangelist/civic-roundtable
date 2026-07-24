@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.civicroundtable.com/security
+url: https://trust.civicroundtable.com/
+certifications:
+- SOC 2 Type II
+- FedRAMP High ATO
+- FIPS 140-2
+- NIST 800-171
+notes: >-
+  Hosted on AWS GovCloud. AES-256 GCM encryption at rest with HSM-controlled
+  root keys, TLS in transit, daily backups retained one year across multiple
+  regions, annual disaster recovery exercises. SOC 2 Type II report available
+  on request via the Trust Center.
+evidence:
+- source: https://www.civicroundtable.com/security
+  keywords:
+  - soc 2 type ii
+  - fedramp high ato
+  - fips 140-2
+  - nist 800-171
+- source: https://trust.civicroundtable.com/
+  keywords:
+  - trust center
