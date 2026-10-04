@@ -48,7 +48,7 @@ tags:
 - Public Sector
 - Government Operations
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 - CRM
 - Civic
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Knowledge Management
 - CRM
 - Civic
+- Knowledge-Management
 apis: []
 common:
 - type: TrustCenter
