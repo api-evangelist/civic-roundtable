@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/civic-roundtable/integrations
+- https://n8n.io/integrations/civic-roundtable/
+- https://composio.dev/toolkits/civic-roundtable
+- https://monid.ai/tools/civic-roundtable
+checked:
+- https://composio.dev/toolkits/civic-roundtable
+- https://monid.ai/tools/civic-roundtable
+- https://n8n.io/integrations/civic-roundtable/
+- https://zapier.com/apps/civic-roundtable/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
